@@ -1,0 +1,33 @@
+{
+  "name": "koa2-starter",
+  "version": "1.0.0",
+  "description": "Simple, minimal Koa v2 starter project",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "babel src --out-dir build",
+    "dev": "node -r babel-register -r babel-polyfill src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fl0w/koa2-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fl0w/koa2-starter/issues"
+  },
+  "homepage": "https://github.com/fl0w/koa2-starter#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "koa": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-register": "^6.11.5"
+  }
+}
